@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitali Harsh - Shopify Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        
+        @page {
+          size: A4;
+          margin: 2cm;
+        }
+     
+        body {
+          width: 21cm;
+          min-height: 29.7cm;
+          margin: 0 auto;
+          padding: 0;
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
+
+        #resume-content {
+          padding: 0;
+        }
+
+        .print\:break-inside-avoid {
+          break-inside: avoid;
+        }
+
+        .print\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        }
+
+        /* Ensure background colors print */
+        .bg-purple-100 {
+          background-color: #f3e8ff !important;
+        }
+
+        .bg-gray-50 {
+          background-color: #f9fafb !important;
+        }
+
+        /* Force background and colors to print */
+        * {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        /* Prevent page breaks inside project cards */
+        .print\:break-inside-avoid {
+            break-inside: avoid !important;
+            page-break-inside: avoid !important;
+        }
+
+        /* Ensure grid layout in print */
+        .print\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        }
+
+        /* Adjust spacing for print */
+        .print\:gap-4 {
+            gap: 1rem !important;
+        }
+
+        /* Ensure borders print clearly */
+        .print\:border-gray-400 {
+            border-color: #9ca3af !important;
+        }
+
+        .print\:border-purple-700 {
+            border-color: #6d28d9 !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+    <div id="resume-content" class="p-8 max-w-7xl mx-auto">
+      <!-- Content will be dynamically inserted here -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

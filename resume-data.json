@@ -1,0 +1,242 @@
+{
+    "personalInfo": {
+        "name": "MITALI HARSH",
+        "title": "Shopify Developer | Frontend Engineer",
+        "contact": {
+            "email": "mitali.harsh44@gmail.com",
+            "linkedin": "in/mitali-harsh",
+            "location": "Bikaner, Rajasthan, India"
+        }
+    },
+    "professionalSummary": "Shopify Developer with 3.5+ years of specialized experience in e-commerce solutions. Expert in theme development, customization, and optimization with proven success in delivering 15+ high-performance Shopify stores. Strong track record of implementing complex integrations and achieving significant improvements in conversion rates through technical optimizations and modern development practices. Demonstrated expertise in migrating legacy themes to Shopify 2.0 and implementing comprehensive e-commerce solutions.",
+    "experience": [
+        {
+            "title": "Frontend Developer",
+            "company": "SunArc Technologies Pvt Ltd",
+            "period": "July 2022 - January 2025",
+            "responsibilities": [
+                "Led development and optimization of 8+ Shopify stores, achieving 40% improvement in performance metrics",
+                "Successfully migrated multiple legacy themes to Shopify 2.0, implementing modern development practices",
+                "Integrated complex third-party applications and payment gateways (Razorpay, AmdOne)",
+                "Enhanced SEO optimization resulting in 30% increase in organic traffic"
+            ]
+        },
+        {
+            "title": "Shopify Frontend Developer",
+            "company": "CI Solution",
+            "period": "January 2022 - June 2022",
+            "responsibilities": [
+                "Developed and maintained multiple Shopify stores focusing on performance and user experience",
+                "Created custom theme features and implemented third-party app integrations",
+                "Developed reusable Shopify components and sections for improved maintenance"
+            ]
+        }
+    ],
+    "technicalSkills": {
+        "coreSkills": [
+            "Theme Development & Customization (Shopify)",
+            "Custom App Development & Integration",
+            "Store Setup & Configuration",
+            "Performance Optimization & SEO",
+            "Multi-language Store Implementation",
+            "Payment Gateway Integration",
+            "Custom Checkout Modifications",
+            "API Integration & Development"
+        ],
+        "technologies": {
+            "frontend": [
+                "JavaScript",
+                "TypeScript",
+                "React.js",
+                "Angular",
+                "Liquid",
+                "HTML5/CSS3"
+            ],
+            "developmentTools": [
+                "Git",
+                "VS Code",
+                "Shopify CLI",
+                "Theme Kit",
+                "Webpack"
+            ]
+        }
+    },
+    "shopifyExpertise": {
+        "apps": [
+            "Mesa",
+            "BoostApp",
+            "Growave",
+            "Klaviyo",
+            "AfterShip",
+            "Flow Creation",
+            "Shopify WebHooks",
+            "Judge.me",
+            "Zapier"
+        ],
+        "paymentGateways": [
+            "Razorpay",
+            "AmdOne",
+            "Shop Pay",
+            "PayPal",
+            "Stripe"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Uniqso.com",
+            "role": "Lead Shopify Developer",
+            "description": [
+                "Successfully migrated from vintage theme to Shopify 2.0",
+                "Implemented multi-currency and language support",
+                "Achieved 40% improvement in page load times",
+                "Integrated multiple third-party apps and payment gateways"
+            ],
+            "techStack": [
+                "Shopify 2.0",
+                "Liquid",
+                "JavaScript",
+                "Klaviyo"
+            ]
+        },
+        {
+            "name": "Twelvesixtynine.com",
+            "role": "Shopify Theme Developer",
+            "description": [
+                "Built custom theme from scratch with advanced filtering",
+                "Implemented multiple payment gateway integrations",
+                "Enhanced SEO performance and user experience",
+                "Created custom product filtering and sorting system"
+            ],
+            "techStack": [
+                "Shopify",
+                "JavaScript",
+                "Liquid",
+                "Mesa"
+            ]
+        },
+        {
+            "name": "JohannWolff.com",
+            "role": "Frontend Developer",
+            "description": [
+                "Executed sophisticated theme customization",
+                "Integrated and configured third-party applications",
+                "Managed email marketing campaigns and automation",
+                "Enhanced user engagement through strategic implementations"
+            ],
+            "techStack": [
+                "Shopify",
+                "Klaviyo",
+                "JavaScript",
+                "Liquid"
+            ]
+        },
+        {
+            "name": "Amar Chitra Katha",
+            "role": "Frontend Developer",
+            "description": [
+                "Implemented comprehensive SEO optimization",
+                "Added canonical links for improved search performance",
+                "Integrated and optimized advertising solutions",
+                "Enhanced overall site visibility and performance"
+            ],
+            "techStack": [
+                "Shopify",
+                "SEO Tools",
+                "JavaScript",
+                "Liquid"
+            ]
+        },
+        {
+            "name": "Sweetycon.com",
+            "role": "Frontend Developer",
+            "description": [
+                "Customized theme sections and components",
+                "Integrated product recommendation system",
+                "Enhanced mobile responsiveness",
+                "Implemented theme migration with zero downtime"
+            ],
+            "techStack": [
+                "Shopify",
+                "JavaScript",
+                "BoostApp",
+                "Liquid"
+            ]
+        },
+        {
+            "name": "OrBasics.com",
+            "role": "Frontend Developer",
+            "description": [
+                "Complete store setup and configuration",
+                "Custom checkout process implementation",
+                "Integration of marketing and analytics tools",
+                "Performance optimization and mobile responsiveness"
+            ],
+            "techStack": [
+                "Shopify",
+                "Liquid",
+                "JavaScript",
+                "Klaviyo"
+            ]
+        },
+        {
+            "name": "DiamondTales.com",
+            "role": "Frontend Developer",
+            "description": [
+                "Theme customization and optimization",
+                "Integration of payment gateways",
+                "Mobile-first responsive design implementation",
+                "Performance optimization for image-heavy content"
+            ],
+            "techStack": [
+                "Shopify",
+                "Liquid",
+                "JavaScript",
+                "Custom Payments"
+            ]
+        },
+        {
+            "name": "Shelorve - Risk Compliance",
+            "role": "Frontend Developer",
+            "description": [
+                "Developed reusable components to improve project scalability",
+                "Integrated Material Table with role-based guards",
+                "Conducted seamless API integrations for dynamic updates",
+                "Implemented comprehensive access control system"
+            ],
+            "techStack": [
+                "Angular",
+                "TypeScript",
+                "Material UI",
+                "RxJS"
+            ]
+        },
+        {
+            "name": "SDDSPL (Payment Gateway)",
+            "role": "Frontend Developer",
+            "description": [
+                "Integrated multiple banking services into the platform",
+                "Implemented DMT, Express Pay, AePS, BBPS services",
+                "Enhanced digital business operations",
+                "Achieved significant increase in service transaction volumes"
+            ],
+            "techStack": [
+                "Angular",
+                "TypeScript",
+                "Payment APIs",
+                "REST Services"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Science in Computer Science",
+            "institution": "Maharaja Ganga Singh University, Bikaner",
+            "year": "2024"
+        },
+        {
+            "degree": "Bachelor of Computer Applications",
+            "institution": "Maharaja Ganga Singh University, Bikaner",
+            "year": "2022"
+        }
+    ]
+}
