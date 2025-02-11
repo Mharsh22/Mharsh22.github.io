@@ -6,14 +6,34 @@
     <title>Mitali Harsh - Shopify Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+      body {
+        background-color: #e5e7eb;
+        padding: 2rem;
+      }
+      .page {
+        width: 70%;
+        margin: auto;
+        background-color: white;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+        overflow: hidden;
+      }
       @media print {
-        
         @page {
           size: A4;
           margin: 2cm;
         }
-     
+
+        .page {
+          width: 100%;
+          margin: auto;
+          background-color: white;
+          box-shadow: unset;
+          overflow: hidden;
+        }
+
         body {
+          background-color: white;
           width: 21cm;
           min-height: 29.7cm;
           margin: 0 auto;
@@ -31,7 +51,7 @@
         }
 
         .print\:grid-cols-2 {
-            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+          grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         }
 
         /* Ensure background colors print */
@@ -43,42 +63,41 @@
           background-color: #f9fafb !important;
         }
 
-        /* Force background and colors to print */
-        * {
-            -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-        }
-
         /* Prevent page breaks inside project cards */
         .print\:break-inside-avoid {
-            break-inside: avoid !important;
-            page-break-inside: avoid !important;
+          break-inside: avoid !important;
+          page-break-inside: avoid !important;
         }
 
         /* Ensure grid layout in print */
         .print\:grid-cols-2 {
-            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+          grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         }
 
         /* Adjust spacing for print */
         .print\:gap-4 {
-            gap: 1rem !important;
+          gap: 1rem !important;
         }
 
         /* Ensure borders print clearly */
         .print\:border-gray-400 {
-            border-color: #9ca3af !important;
+          border-color: #9ca3af !important;
         }
 
         .print\:border-purple-700 {
-            border-color: #6d28d9 !important;
+          border-color: #6d28d9 !important;
         }
       }
     </style>
   </head>
-  <body class="bg-white text-gray-800">
-    <div id="resume-content" class="p-8 max-w-7xl mx-auto">
-      <!-- Content will be dynamically inserted here -->
+  <body class="text-gray-800">
+    <div class="pages-container">
+      <!-- First page -->
+      <div class="page rounded-lg">
+        <div id="resume-content" class="p-8 max-w-7xl mx-auto">
+          <!-- Content will be dynamically inserted here -->
+        </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
