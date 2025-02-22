@@ -50,25 +50,6 @@ function renderResume(data) {
             <p class="text-gray-700 leading-relaxed">${data.professionalSummary}</p>
         </section>
 
-        <!-- Experience -->
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4 pb-2 border-b-2 border-blue-600">EXPERIENCE</h2>
-            ${data.experience.map(job => `
-                <div class="mb-6">
-                    <div class="flex justify-between items-start mb-2">
-                        <div>
-                            <h3 class="text-xl font-bold">${job.title}</h3>
-                            <div class="text-blue-600">${job.company}</div>
-                        </div>
-                        <div class="text-gray-600">${job.period}</div>
-                    </div>
-                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
-                        ${job.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
-                    </ul>
-                </div>
-            `).join('')}
-        </section>
-
         <!-- Technical Skills -->
         <section class="mb-8">
             <h2 class="text-2xl font-bold mb-6 pb-2 border-b-2 border-blue-600">TECHNICAL SKILLS</h2>
@@ -91,6 +72,14 @@ function renderResume(data) {
                             </div>
                         </div>
                         <div>
+                            <h4 class="font-semibold mb-2">Backend:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                ${data.technicalSkills.technologies.backend.map(tech => `
+                                    <span class="px-3 py-1 border border-purple-400 text-purple-700 rounded-full text-sm print:border-purple-700">${tech}</span>
+                                `).join('')}
+                            </div>
+                        </div>
+                        <div>
                             <h4 class="font-semibold mb-2">Development Tools:</h4>
                             <div class="flex flex-wrap gap-2">
                                 ${data.technicalSkills.technologies.developmentTools.map(tool => `
@@ -103,27 +92,23 @@ function renderResume(data) {
             </div>
         </section>
 
-        <!-- Shopify Expertise -->
+        <!-- Experience -->
         <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-6 pb-2 border-b-2 border-blue-600">SHOPIFY EXPERTISE</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 gap-6 print:gap-6">
-                <div>
-                    <h3 class="text-xl font-bold text-blue-700 mb-4">Apps & Integrations</h3>
-                    <div class="flex flex-wrap gap-2">
-                        ${data.shopifyExpertise.apps.map(app => `
-                            <span class="px-3 py-1 border border-purple-400 text-purple-700 rounded-full text-sm print:border-purple-700">${app}</span>
-                        `).join('')}
+            <h2 class="text-2xl font-bold mb-4 pb-2 border-b-2 border-blue-600">EXPERIENCE</h2>
+            ${data.experience.map(job => `
+                <div class="mb-6 print:break-inside-avoid">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h3 class="text-xl font-bold">${job.title}</h3>
+                            <div class="text-blue-600">${job.company}</div>
+                        </div>
+                        <div class="text-gray-600">${job.period}</div>
                     </div>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-2">
+                        ${job.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
+                    </ul>
                 </div>
-                <div>
-                    <h3 class="text-xl font-bold text-blue-700 mb-4">Payment Gateways</h3>
-                    <div class="flex flex-wrap gap-2">
-                        ${data.shopifyExpertise.paymentGateways.map(gateway => `
-                            <span class="px-3 py-1 border border-orange-400 text-orange-700 rounded-full text-sm print:border-orange-700">${gateway}</span>
-                        `).join('')}
-                    </div>
-                </div>
-            </div>
+            `).join('')}
         </section>
 
         <!-- Projects -->

@@ -1,95 +1,159 @@
 {
     "personalInfo": {
         "name": "MITALI HARSH",
-        "title": "Shopify Developer | Frontend Engineer",
+        "title": "MERN / MEAN Stack Developer | Frontend Engineer",
         "contact": {
             "email": "mitali.harsh44@gmail.com",
             "linkedin": "in/mitali-harsh",
             "location": "Bikaner, Rajasthan, India"
         }
     },
-    "professionalSummary": "Shopify Developer with 3.5+ years of specialized experience in e-commerce solutions. Expert in theme development, customization, and optimization with proven success in delivering 15+ high-performance Shopify stores. Strong track record of implementing complex integrations and achieving significant improvements in conversion rates through technical optimizations and modern development practices. Demonstrated expertise in migrating legacy themes to Shopify 2.0 and implementing comprehensive e-commerce solutions.",
+    "professionalSummary": "MERN / MEAN Stack Developer with 3.5+ years of experience in designing and implementing modern web applications. Proficient in React, NodeJS with a strong background in frontend and backend development. Adept at building scalable web solutions, integrating APIs, and optimizing performance for seamless user experiences. Passionate about clean code architecture and modern development practices.",
     "experience": [
         {
-            "title": "Frontend Developer",
+            "title": "Software Developer",
             "company": "SunArc Technologies Pvt Ltd",
             "period": "July 2022 - January 2025",
             "responsibilities": [
-                "Led development and optimization of 8+ Shopify stores, achieving 40% improvement in performance metrics",
-                "Successfully migrated multiple legacy themes to Shopify 2.0, implementing modern development practices",
-                "Integrated complex third-party applications and payment gateways (Razorpay, AmdOne)",
-                "Enhanced SEO optimization resulting in 30% increase in organic traffic"
+                "Developed and optimized full-stack applications using React, NodeJS",
+                "Implemented RESTful APIs and integrated third-party services for seamless functionality",
+                "Designed and maintained reusable components using React for scalable applications",
+                "Enhanced website performance, achieving 40% improvement in load time and responsiveness",
+                "Collaborated with backend teams to develop efficient database models and schemas"
             ]
         },
         {
-            "title": "Shopify Frontend Developer",
+            "title": "Frontend Developer",
             "company": "CI Solution",
-            "period": "January 2022 - June 2022",
+            "period": "June 2022 - June 2022",
             "responsibilities": [
-                "Developed and maintained multiple Shopify stores focusing on performance and user experience",
-                "Created custom theme features and implemented third-party app integrations",
-                "Developed reusable Shopify components and sections for improved maintenance"
+                "Developed dynamic and responsive UI components using React and JavaScript",
+                "Integrated APIs with frontend applications for data fetching and state management",
+                "Refactored legacy codebases to improve performance and maintainability",
+                "Implemented user authentication and authorization using JWT and OAuth"
             ]
         }
     ],
     "technicalSkills": {
         "coreSkills": [
-            "Theme Development & Customization (Shopify)",
-            "Custom App Development & Integration",
-            "Store Setup & Configuration",
-            "Performance Optimization & SEO",
-            "Multi-language Store Implementation",
-            "Payment Gateway Integration",
-            "Custom Checkout Modifications",
-            "API Integration & Development"
+            "Full-Stack Development",
+            "Frontend and Backend Development",
+            "RESTful API Development",
+            "Database Design and Management",
+            "Performance Optimization",
+            "Authentication & Authorization",
+            "Version Control & CI/CD"
         ],
         "technologies": {
             "frontend": [
                 "JavaScript",
                 "TypeScript",
-                "React.js",
+                "React",
                 "Angular",
-                "Liquid",
+                "Tailwind",
                 "HTML5/CSS3"
+            ],
+            "backend": [
+                "NodeJS",
+                "ExpressJS",
+                "NextJS",
+                "MySQL",
+                "MongoDB"
             ],
             "developmentTools": [
                 "Git",
+                "GitHub",
                 "VS Code",
-                "Shopify CLI",
-                "Theme Kit",
-                "Webpack"
+                "Postman"
             ]
         }
     },
-    "shopifyExpertise": {
-        "apps": [
-            "Mesa",
-            "BoostApp",
-            "Growave",
-            "Klaviyo",
-            "AfterShip",
-            "Flow Creation",
-            "Shopify WebHooks",
-            "Judge.me",
-            "Zapier"
-        ],
-        "paymentGateways": [
-            "Razorpay",
-            "AmdOne",
-            "Shop Pay",
-            "PayPal",
-            "Stripe"
-        ]
-    },
     "projects": [
+        {
+            "name": "SDDSPL (Payment Gateway)",
+            "role": "Frontend Developer",
+            "description": [
+                "Integrated multiple banking services into the platform.",
+                "Implemented DMT, Express Pay, AePS, BBPS services.",
+                "Enhanced digital business operations.",
+                "Achieved significant increase in service transaction volumes."
+            ],
+            "techStack": [
+                "Angular",
+                "TypeScript",
+                "Payment APIs",
+                "REST Services"
+            ]
+        },
+        {
+            "name": "Shelorve - Risk Compliance",
+            "role": "Frontend Developer",
+            "description": [
+                "Developed reusable components to improve project scalability.",
+                "Integrated Material Table with role-based guards.",
+                "Conducted seamless API integrations for dynamic updates.",
+                "Implemented comprehensive access control system."
+            ],
+            "techStack": [
+                "Angular",
+                "TypeScript",
+                "Material UI",
+                "RxJS"
+            ]
+        },
+        {
+            "name": "Digital Lab",
+            "role": "Frontend Developer",
+            "description": [
+                "Engineered a dynamic e-commerce platform using React for the frontend, API for efficient data handling, and HTML/CSS for an intuitive design.",
+                "Implemented features include product and collection displays, along with a fully functional cart page for a seamless user experience."
+            ],
+            "techStack": [
+                "React",
+                "API",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "name": "Amar Chitra Katha",
+            "role": "Frontend Developer",
+            "description": [
+                "Implemented comprehensive SEO optimization.",
+                "Added canonical links for improved search performance.",
+                "Integrated and optimized advertising solutions.",
+                "Enhanced overall site visibility and performance."
+            ],
+            "techStack": [
+                "React",
+                "SEO Tools",
+                "JavaScript",
+                "Liquid"
+            ]
+        },
+        {
+            "name": "Aarud Naturals",
+            "role": "Shopify Developer",
+            "description": [
+                "Created the store from scratch.",
+                "Developed and designed pages.",
+                "Ensured mobile responsiveness.",
+                "Customized theme structure and web design."
+            ],
+            "techStack": [
+                "Shopify",
+                "Liquid",
+                "JavaScript"
+            ]
+        },
         {
             "name": "Uniqso.com",
             "role": "Lead Shopify Developer",
             "description": [
-                "Successfully migrated from vintage theme to Shopify 2.0",
-                "Implemented multi-currency and language support",
-                "Achieved 40% improvement in page load times",
-                "Integrated multiple third-party apps and payment gateways"
+                "Successfully migrated from vintage theme to Shopify 2.0.",
+                "Implemented multi-currency and language support.",
+                "Achieved 40% improvement in page load times.",
+                "Integrated multiple third-party apps and payment gateways."
             ],
             "techStack": [
                 "Shopify 2.0",
@@ -102,10 +166,10 @@
             "name": "Twelvesixtynine.com",
             "role": "Shopify Theme Developer",
             "description": [
-                "Built custom theme from scratch with advanced filtering",
-                "Implemented multiple payment gateway integrations",
-                "Enhanced SEO performance and user experience",
-                "Created custom product filtering and sorting system"
+                "Built custom theme from scratch with advanced filtering.",
+                "Implemented multiple payment gateway integrations.",
+                "Enhanced SEO performance and user experience.",
+                "Created custom product filtering and sorting system."
             ],
             "techStack": [
                 "Shopify",
@@ -118,10 +182,10 @@
             "name": "JohannWolff.com",
             "role": "Frontend Developer",
             "description": [
-                "Executed sophisticated theme customization",
-                "Integrated and configured third-party applications",
-                "Managed email marketing campaigns and automation",
-                "Enhanced user engagement through strategic implementations"
+                "Executed sophisticated theme customization.",
+                "Integrated and configured third-party applications.",
+                "Managed email marketing campaigns and automation.",
+                "Enhanced user engagement through strategic implementations."
             ],
             "techStack": [
                 "Shopify",
@@ -131,29 +195,13 @@
             ]
         },
         {
-            "name": "Amar Chitra Katha",
-            "role": "Frontend Developer",
-            "description": [
-                "Implemented comprehensive SEO optimization",
-                "Added canonical links for improved search performance",
-                "Integrated and optimized advertising solutions",
-                "Enhanced overall site visibility and performance"
-            ],
-            "techStack": [
-                "Shopify",
-                "SEO Tools",
-                "JavaScript",
-                "Liquid"
-            ]
-        },
-        {
             "name": "Sweetycon.com",
             "role": "Frontend Developer",
             "description": [
-                "Customized theme sections and components",
-                "Integrated product recommendation system",
-                "Enhanced mobile responsiveness",
-                "Implemented theme migration with zero downtime"
+                "Customized theme sections and components.",
+                "Integrated product recommendation system.",
+                "Enhanced mobile responsiveness.",
+                "Implemented theme migration with zero downtime."
             ],
             "techStack": [
                 "Shopify",
@@ -166,10 +214,10 @@
             "name": "OrBasics.com",
             "role": "Frontend Developer",
             "description": [
-                "Complete store setup and configuration",
-                "Custom checkout process implementation",
-                "Integration of marketing and analytics tools",
-                "Performance optimization and mobile responsiveness"
+                "Complete store setup and configuration.",
+                "Custom checkout process implementation.",
+                "Integration of marketing and analytics tools.",
+                "Performance optimization and mobile responsiveness."
             ],
             "techStack": [
                 "Shopify",
@@ -182,48 +230,16 @@
             "name": "DiamondTales.com",
             "role": "Frontend Developer",
             "description": [
-                "Theme customization and optimization",
-                "Integration of payment gateways",
-                "Mobile-first responsive design implementation",
-                "Performance optimization for image-heavy content"
+                "Theme customization and optimization.",
+                "Integration of payment gateways.",
+                "Mobile-first responsive design implementation.",
+                "Performance optimization for image-heavy content."
             ],
             "techStack": [
                 "Shopify",
                 "Liquid",
                 "JavaScript",
                 "Custom Payments"
-            ]
-        },
-        {
-            "name": "Shelorve - Risk Compliance",
-            "role": "Frontend Developer",
-            "description": [
-                "Developed reusable components to improve project scalability",
-                "Integrated Material Table with role-based guards",
-                "Conducted seamless API integrations for dynamic updates",
-                "Implemented comprehensive access control system"
-            ],
-            "techStack": [
-                "Angular",
-                "TypeScript",
-                "Material UI",
-                "RxJS"
-            ]
-        },
-        {
-            "name": "SDDSPL (Payment Gateway)",
-            "role": "Frontend Developer",
-            "description": [
-                "Integrated multiple banking services into the platform",
-                "Implemented DMT, Express Pay, AePS, BBPS services",
-                "Enhanced digital business operations",
-                "Achieved significant increase in service transaction volumes"
-            ],
-            "techStack": [
-                "Angular",
-                "TypeScript",
-                "Payment APIs",
-                "REST Services"
             ]
         }
     ],
